@@ -1,0 +1,17 @@
+server:
+  port: 8090
+
+
+spring:
+  datasource:
+
+
+    url: jdbc:sqlserver://LAPTOP-0BT01DIR:1433;database=XemTruyen
+    driverClassName: "com.microsoft.sqlserver.jdbc.SQLServerDriver"
+    username: sa
+    password: 123456789
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
